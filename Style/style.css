@@ -1,0 +1,45 @@
+/* header */
+header{
+ background-color: rgb(252, 246, 246);
+max-width: 1440px;
+height: 120px;
+margin-left: 68px;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.nav-bar{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+/* banner */
+.banner{
+    
+    background-color: seagreen;
+    background-image: url(../image/Hero-bg.png);
+    height: 518px;
+  
+    border: 10px;
+    border-style:solid ;
+    border-color: tomato;
+    margin-top: 20px;
+   
+}
+.banner-pro-pic{
+    border: 10px;
+    margin-top: 29px;
+}
+.banner-content{
+    width: 998px;
+    margin-left: 273px;
+}
+.banner-profile-pic{
+ 
+}
