@@ -60,9 +60,10 @@ margin-left: 68px;
     border:1px solid rgb(113, 214, 12);
     border-style:solid ;
     border-color: rgb(16, 172, 146);
-}*/
+}*/ 
+/* information of why web-development */
 .about-web-dev{
-    width: 840px;
+    width: 1140px;
     height: 1100px;px;
     
     border: 10px;
@@ -99,8 +100,8 @@ margin-left: 68px;
 /* Inspiration section */
 .Inspiration{
     background-color: turquoise;
-    width: 840px;
-    height: 1100px;px;
+    width: 1140px;
+    height: 800px;
     
     border: 10px;
     border-style:solid ;
@@ -113,13 +114,49 @@ margin-left: 68px;
     margin: 24px 144px 48px 144px;
 }
 .video{ 
-    margin-left: 110px;
-    margin-right: 108px;
-    padding: 32px;
+    /* margin-left: 110px;
+    margin-right: 108px;*/
+    padding: 32px; 
     border: 1px;
     border-style:solid ;
     border-color:black;
     border-radius: 16px;
     background-color: blanchedalmond;
    
+}
+/*  languages section */
+.web-language-description{
+   
+    
+}
+.web-language{
+    background-color:#FFFFFF;
+    border: 1px solid red;
+    border: 10px;
+    border-style: dashed;
+    border-color: tomato;
+    width: 1140px;
+    margin: auto;
+}
+.A1{
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+}
+.web-language-description{
+    width: 752px;
+    margin: auto;
+    gap: 24px 0 48px 0;
+}
+.a1{
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.a2{
+    padding: 40px;
+    background-color: #EBEBEB;
+}
+.a3{
+    padding: 40px;
+    background-color: rgba(255, 253, 242, 1);
 }
