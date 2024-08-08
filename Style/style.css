@@ -1,3 +1,14 @@
+/* sheard style*/
+.btn-learn{
+    height: 47px;
+    width: 171px;
+    padding: 12px 20px;
+}
+
+
+
+
+
 /* header */
 header{
  background-color: rgb(252, 246, 246);
@@ -42,4 +53,73 @@ margin-left: 68px;
 }
 .banner-profile-pic{
  
+}
+/* info section */
+/* .about-web-dev{ 
+    background-color: rgb(105, 16, 0);
+    border:1px solid rgb(113, 214, 12);
+    border-style:solid ;
+    border-color: rgb(16, 172, 146);
+}*/
+.about-web-dev{
+    width: 840px;
+    height: 1100px;px;
+    
+    border: 10px;
+    border-style:solid ;
+    border-color: rgb(57, 9, 134);
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.web-dev{
+    margin: 24px 47px 48px 47px;
+}
+.web-content{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
+    padding: 48px;
+    border-style:dotted ;
+   
+}
+ .left{ 
+    height: 164px;
+    margin-right: 30px;
+    border: 10px;
+    border-style:solid ;
+    border-color: rgb(9, 134, 117);
+    justify-items: flex-start;
+}
+.right{
+    background-color: white;
+}
+/* Inspiration section */
+.Inspiration{
+    background-color: turquoise;
+    width: 840px;
+    height: 1100px;px;
+    
+    border: 10px;
+    border-style:solid ;
+    border-color: rgb(57, 9, 134);
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.insp-description{
+    margin: 24px 144px 48px 144px;
+}
+.video{ 
+    margin-left: 110px;
+    margin-right: 108px;
+    padding: 32px;
+    border: 1px;
+    border-style:solid ;
+    border-color:black;
+    border-radius: 16px;
+    background-color: blanchedalmond;
+   
 }
