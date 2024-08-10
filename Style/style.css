@@ -4,7 +4,9 @@
     width: 171px;
     padding: 12px 20px;
 }
-
+.text-center{
+    text-align: center;
+}
 
 
 
@@ -27,9 +29,6 @@ margin-left: 68px;
     padding: 10px;
 }
 
-.text-center{
-    text-align: center;
-}
 /* banner */
 .banner{
     
@@ -204,5 +203,38 @@ margin-left: 68px;
     border: 2px solid black;
     margin-bottom: 24px;
     padding: 40px;
-
 }
+.support{
+    text-align: center;
+    height: 313px;
+    width:1140px;
+    margin: auto;
+    margin-top: 49px;
+    margin-bottom: 80px;
+    border:20px dotted red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/image/handshake.jpg);
+    background-position: center;
+}
+.support-main{
+    margin: 100px;
+    border: 12px dotted rgb(14, 30, 99); 
+}
+.form-support{
+    display: flex;
+    gap: 50px;
+}
+.btn-submit{
+    border: 11px solid #07e449;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8a2be2;
+    padding: 15px;
+    width: 1140px;
+    margin: auto;
+  }
