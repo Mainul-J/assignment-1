@@ -3,17 +3,65 @@
     height: 47px;
     width: 171px;
     padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .text-center{
     text-align: center;
 }
-
-
+/* font style */
+.font-title{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.web-title{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.font-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+li a{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.box-title{
+    font-size: 24px;
+    font-weight:bolder;
+} 
+.box-description{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-cv{
+    width: 244px;
+    height: 57px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-contact{
+    width: 224px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    
+}
 
 
 /* header */
 header{
- background-color: rgb(252, 246, 246);
+ background-color: rgb(255, 255, 255);
 max-width: 1440px;
 height: 120px;
 margin-left: 68px;
@@ -31,28 +79,37 @@ margin-left: 68px;
 
 /* banner */
 .banner{
-    
-    background-color: seagreen;
     background-image: url(../image/Hero-bg.png);
-    height: 518px;
-  
-    border: 10px;
-    border-style:solid ;
-    border-color: tomato;
+    height: 652px;
+    border: 10px solid black;
     margin-top: 20px;
+    align-items: center;
+   flex-direction: column;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    
    
 }
 .banner-pro-pic{
-    border: 10px;
+    border: 10px dotted gray;
     margin-top: 29px;
 }
 .banner-content{
+    border: 10px dotted rgb(167, 33, 33);
+    margin-top: 29px;
     width: 998px;
     margin-left: 273px;
 }
-.banner-profile-pic{
- 
+.banner-description{
+    border: 10px dotted rgb(167, 33, 33);
+    margin-top: 29px;
 }
+/* .banner-title{
+    font-weight: bolder;
+    font-size: 35px;
+} */
+/* .banner-profile-pic{ */
+
 /* info section */
 /* .about-web-dev{ 
     background-color: rgb(105, 16, 0);
@@ -61,10 +118,9 @@ margin-left: 68px;
     border-color: rgb(16, 172, 146);
 }*/ 
 /* information of why web-development */
-.about-web-dev{
+.about-web-dev{background-color: #07e449;
     width: 1140px;
-    height: 1100px;px;
-    
+    height: 1100px;
     border: 10px;
     border-style:solid ;
     border-color: rgb(57, 9, 134);
@@ -124,10 +180,7 @@ margin-left: 68px;
    
 }
 /*  languages section */
-.web-language-description{
-   
-    
-}
+
 .web-language{
     background-color:#FFFFFF;
     border: 1px solid red;
@@ -176,11 +229,24 @@ margin-left: 68px;
     background-color: rgb(148, 236, 6);
     margin:25px auto 48px auto;
 }
-/* .tech-container{ 
+.tech-container{ 
+    background-color: yellow;
     gap:48px;
-    padding: 0px 24px 55.5px 40px;} */
+    padding: 0px 24px 55.5px 40px;} 
 
 .tech-container-1 {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    gap: 20px 40px;
+    border: 2px solid black;
+    margin-bottom: 24px;
+    padding: 40px;
+    background-color: #07e449;
+}
+.tech-container-2{
+    height:118px;
+    background-color: blanchedalmond;
     display: flex;
     align-items: center;
     gap: 20px 40px;
@@ -188,7 +254,9 @@ margin-left: 68px;
     margin-bottom: 24px;
     padding: 40px;
 }
-.tech-container-2{background-color: blanchedalmond;
+.tech-container-3{
+    height: 118px;
+    background-color: brown;
     display: flex;
     align-items: center;
     gap: 20px 40px;
@@ -196,14 +264,12 @@ margin-left: 68px;
     margin-bottom: 24px;
     padding: 40px;
 }
-.tech-container-3{background-color: brown;
-    display: flex;
-    align-items: center;
-    gap: 20px 40px;
-    border: 2px solid black;
-    margin-bottom: 24px;
-    padding: 40px;
+.tech-right{
+    padding-bottom: 35px;
 }
+.tech-left{
+    margin: auto;
+  } 
 .support{
     text-align: center;
     height: 313px;
@@ -224,16 +290,20 @@ margin-left: 68px;
 }
 .form-support{
     display: flex;
-    gap: 50px;
+    gap: 16px;
 }
-.btn-submit{
-    border: 11px solid #07e449;
+.support-headline { 
+    color: white;
 }
+.support-description{
+    color: whitesmoke;
+}
+/* footer style */
 .nav-li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #8a2be2;
+    background-color: #e6ddee;
     padding: 15px;
     width: 1140px;
     margin: auto;
