@@ -61,7 +61,7 @@ a {
 
 /* header */
 header{
- background-color: rgb(255, 255, 255);
+ background-color: rgb(255, 250, 250);
 max-width: 1440px;
 height: 120px;
 margin-left: 68px;
@@ -81,49 +81,27 @@ margin-left: 68px;
 .banner{
     background-image: url(../image/Hero-bg.png);
     height: 652px;
-    border: 10px solid black;
     margin-top: 20px;
     align-items: center;
    flex-direction: column;
     justify-content: center;
     padding: 25px 0px 25px 0px;
-    
-   
 }
 .banner-pro-pic{
-    border: 10px dotted gray;
-    margin-top: 29px;
+    margin-top: 20px 32px;
 }
 .banner-content{
-    border: 10px dotted rgb(167, 33, 33);
-    margin-top: 29px;
     width: 998px;
-    margin-left: 273px;
+    margin: auto;
+    gap: 32px;
 }
 .banner-description{
-    border: 10px dotted rgb(167, 33, 33);
-    margin-top: 29px;
+    margin-bottom:32px;
 }
-/* .banner-title{
-    font-weight: bolder;
-    font-size: 35px;
-} */
-/* .banner-profile-pic{ */
-
-/* info section */
-/* .about-web-dev{ 
-    background-color: rgb(105, 16, 0);
-    border:1px solid rgb(113, 214, 12);
-    border-style:solid ;
-    border-color: rgb(16, 172, 146);
-}*/ 
 /* information of why web-development */
-.about-web-dev{background-color: #07e449;
+.about-web-dev{background-color: #FAFAFB;
     width: 1140px;
     height: 1100px;
-    border: 10px;
-    border-style:solid ;
-    border-color: rgb(57, 9, 134);
     margin-top: 20px;
     margin-left:auto;
     margin-right: auto;
@@ -138,29 +116,22 @@ margin-left: 68px;
     justify-content: space-between;
     gap:32px;
     padding: 48px;
-    border-style:dotted ;
-   
 }
  .left{ 
     height: 164px;
     margin-right: 30px;
-    border: 10px;
-    border-style:solid ;
-    border-color: rgb(9, 134, 117);
     justify-items: flex-start;
+    background-color: #efeff7;
 }
 .right{
-    background-color: white;
+    background-color: rgb(245, 243, 243);
+    border: 2px solid rgb(235, 212, 212);
 }
 /* Inspiration section */
-.Inspiration{
-    background-color: turquoise;
+.inspiration{
+    background-color:whitesmoke;
     width: 1140px;
     height: 800px;
-    
-    border: 10px;
-    border-style:solid ;
-    border-color: rgb(57, 9, 134);
     margin-top: 20px;
     margin-left:auto;
     margin-right: auto;
@@ -183,10 +154,6 @@ margin-left: 68px;
 
 .web-language{
     background-color:#FFFFFF;
-    border: 1px solid red;
-    border: 10px;
-    border-style: dashed;
-    border-color: tomato;
     width: 1140px;
     margin: auto;
 }
@@ -214,11 +181,7 @@ margin-left: 68px;
 }
 /* technology section */
 .framwork-sec{
-    background-color:#FFFFFF;
-    border: 1px solid red;
-    border: 10px;
-    border-style: dashed;
-    border-color: tomato;
+    background-color: #f6f8f8;
     width: 1140px;
     margin: auto;
 }
@@ -226,13 +189,12 @@ margin-left: 68px;
     width: 752px;
     margin: auto;
     gap: 24px 0 48px 0;
-    background-color: rgb(148, 236, 6);
     margin:25px auto 48px auto;
 }
 .tech-container{ 
-    background-color: yellow;
     gap:48px;
-    padding: 0px 24px 55.5px 40px;} 
+    padding: 0px 24px 55.5px 40px;
+} 
 
 .tech-container-1 {
     height: 118px;
@@ -242,11 +204,10 @@ margin-left: 68px;
     border: 2px solid black;
     margin-bottom: 24px;
     padding: 40px;
-    background-color: #07e449;
+    background-color: #f3f3f3;
 }
 .tech-container-2{
     height:118px;
-    background-color: blanchedalmond;
     display: flex;
     align-items: center;
     gap: 20px 40px;
@@ -256,7 +217,6 @@ margin-left: 68px;
 }
 .tech-container-3{
     height: 118px;
-    background-color: brown;
     display: flex;
     align-items: center;
     gap: 20px 40px;
@@ -277,7 +237,6 @@ margin-left: 68px;
     margin: auto;
     margin-top: 49px;
     margin-bottom: 80px;
-    border:20px dotted red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +245,6 @@ margin-left: 68px;
 }
 .support-main{
     margin: 100px;
-    border: 12px dotted rgb(14, 30, 99); 
 }
 .form-support{
     display: flex;
